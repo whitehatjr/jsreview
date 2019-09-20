@@ -1,4 +1,3 @@
-# jsreview
 # JavaScript Review
 
 ## Numbers and Strings
@@ -230,4 +229,37 @@ Now you can use the circumference functions to calculate the radius of any circl
 
 ```
 circumference(5)
+```
+
+## Objects
+We used classes to design blue prints of objects in javascript and then used **new** to create new object using the class.
+
+Internally JavaScript creates a new object using *new Object()*
+```
+var paddle = new Object();
+```
+You can assign new properties and functions to test object.
+
+Ask the student to assign a new property and function to a test object
+
+```
+paddle.length = 60
+```
+
+```
+paddle.showLength = function(){
+	console.log(paddle.length);
+}
+```
+
+Call paddle.showLength() to see the length of the paddle.
+
+```
+paddle.showLength()
+```
+
+Call paddle object to see what's stored inside the paddle.
+
+```
+paddle
 ```
